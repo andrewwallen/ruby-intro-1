@@ -19,6 +19,16 @@ spades = [2, 3, 4, 5, 6, 7, 8, 9, 10, "Jack", "Queen", "King", "Ace"]
 # King of Spades
 # Ace of Spades
 
+suits = ["clubs","diamonds","hearts","spades"]
+values = [2,3,4,5,6,7,8,9,10,"Jack", "Queen", "Kings", "Ace"]
+
+for suit in suits
+    for value in values
+        puts "#{value} of #{suit}"
+    end
+end
+
+
 # CHALLENGE #1
 # The arrays are identical for each suit and can be simplified by using
 # a ranks array as seen below. Try to complete the exercise again by
